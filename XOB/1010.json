@@ -1,30 +1,21 @@
 {
     "spider": "./custom_spider.jar;md5;96a99e445d620353890869d95755b890",
     "lives": [
-        {
-          "name": "直播",
-          "type": 0,
-          "playerType": 1,
-          "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
-          //"url": "clan://XYQTVBox/live.txt",
-          //"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-          "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
-          //"logo": "http://epg.51zmt.top:8000/api/diyp/logo/{name}.png"
-          "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "group": "redirect",
-            "channels": [
-                {
-                    "name": "live",
-                    "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-                    //"urls": ["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL09uZUNsaWNrUnVuL2xpdmUudHh0"]
-                    //"urls": ["proxy://do=live&type=txt&ext=https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"]
-                    //"urls": ["proxy://do=live&type=txt&ext=http://dlq.gmqd.com/upload/20220921115985878587.txt"]
-                    "urls": ["proxy://do=live&type=txt&ext=http://home.jundie.top:81/ray/tvlive.txt"]
-                }
-            ]
-        }
+       {
+      "name": "范明明IPV6",
+      "type": 0,
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+      "player删Type除": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "ua": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36"
+    },
+    {
+      "group": "redirect",
+      "channels": [
+        {"name": "live", "urls": ["proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ="]}
+      ]
+    }
     ],
     "sites": [
          {
